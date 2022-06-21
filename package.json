@@ -1,5 +1,5 @@
 {
-  "name": "react-native-audio-library",
+  "name": "react-native-webrtc-audio",
   "version": "0.2.9",
   "description": "Display active audio devices and change device on webrtc auido stream",
   "main": "lib/commonjs/index",
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/MelihTOKSARI/react-native-audio-library",
-  "author": "Melih <melih.toksari.npm@gmail.com> (https://github.com/MelihTOKSARI)",
+  "repository": "https://github.com/armakomnpm/react-native-webrtc-audio",
+  "author": "Melih <npm@armakom.com> (https://github.com/armakomnpm)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MelihTOKSARI/react-native-audio-library/issues"
+    "url": "https://github.com/armakomnpm/react-native-webrtc-audio/issues"
   },
-  "homepage": "https://github.com/MelihTOKSARI/react-native-audio-library#readme",
+  "homepage": "https://github.com/armakomnpm/react-native-webrtc-audio#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -144,5 +144,9 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.6",
+    "react-native-verto-ts": "^0.2.45"
   }
 }

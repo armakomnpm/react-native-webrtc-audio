@@ -1,4 +1,4 @@
-# react-native-audio-library
+# react-native-webrtc-audio
 
 Display active audio devices and change audio device output on webrtc auido stream
 
@@ -7,7 +7,7 @@ Display active audio devices and change audio device output on webrtc auido stre
 Run below command to install package.
 
 ```sh
-npm install react-native-audio-library
+npm install react-native-webrtc-audio
 ```
 This package is constructed on <strong>react-native-webrtc</strong> package for onyl call operations. Therefore, you should run below command if <strong>react-native-webrtc</strong> package is not installed already.
 
@@ -22,7 +22,7 @@ First, create instance of <strong>AudioSdk</strong> to get list of active audio 
 ### \#AudioSdk
 
 ```js
-import { AudioSdk, Device } from "react-native-audio-library";
+import { AudioSdk, Device } from "react-native-webrtc-audio";
 
 const onAudioDevicesUpdated = (devices: Array<Device>) => {
     console.log('[onAudioDevicesUpdated] devices:', JSON.stringfy(devices));

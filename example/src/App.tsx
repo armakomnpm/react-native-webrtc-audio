@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { FlatList, View, Button } from 'react-native';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { AudioSdk, Device } from 'react-native-audio-library';
+import { AudioSdk, Device } from 'react-native-webrtc-audio';
 
 import {
   Call,
@@ -14,7 +14,7 @@ import {
   VertoParams,
   VertoView,
   ViewType,
-} from 'react-native-verto-typescript';
+} from 'react-native-verto-ts';
 
 let audioSdk: AudioSdk;
 
