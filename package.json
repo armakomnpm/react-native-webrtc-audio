@@ -1,6 +1,6 @@
 {
   "name": "react-native-webrtc-audio",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "Display active audio devices and change device on webrtc auido stream",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
