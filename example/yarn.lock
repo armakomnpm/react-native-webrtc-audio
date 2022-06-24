@@ -1058,10 +1058,10 @@
     "@types/yargs" "^16.0.0"
     "chalk" "^4.0.0"
 
-"@react-native-async-storage/async-storage@^1.15.13":
-  "integrity" "sha512-OnbPmjiBOREiutFMG356w+eWiEL1WRCgXDH/o6+4S1cIkfl9SZFanxUBlGi4/Ny22KXcJHN0VtWy0gL8jqYYLg=="
-  "resolved" "https://registry.npmjs.org/@react-native-async-storage/async-storage/-/async-storage-1.15.13.tgz"
-  "version" "1.15.13"
+"@react-native-async-storage/async-storage@^1.15.13", "@react-native-async-storage/async-storage@^1.17.6":
+  "integrity" "sha512-mDtWhCcpxzrZhA95f6zi0pnBsjBEZW1LKZWfxVXG0UfaWpPxDBCKowNk2xjRTytckZeVhjmPJPtBU+8QNQcR0A=="
+  "resolved" "https://registry.npmjs.org/@react-native-async-storage/async-storage/-/async-storage-1.17.7.tgz"
+  "version" "1.17.7"
   dependencies:
     "merge-options" "^3.0.4"
 
@@ -3793,6 +3793,11 @@
   "resolved" "https://registry.npmjs.org/react-native-background-timer/-/react-native-background-timer-2.4.1.tgz"
   "version" "2.4.1"
 
+"react-native-callkeep@^4.3.3":
+  "integrity" "sha512-XfzVBB577qQpjhkdrqLgyyvRFqdvjzR+yamtl7hf0aSSiuIdMNTNJFj5wBoXp0Tffm11Jwl0myKXfxrRy+c45w=="
+  "resolved" "https://registry.npmjs.org/react-native-callkeep/-/react-native-callkeep-4.3.3.tgz"
+  "version" "4.3.3"
+
 "react-native-codegen@^0.0.7":
   "integrity" "sha512-dwNgR8zJ3ALr480QnAmpTiqvFo+rDtq6V5oCggKhYFlRjzOmVSFn3YD41u8ltvKS5G2nQ8gCs2vReFFnRGLYng=="
   "resolved" "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.0.7.tgz"
@@ -3802,7 +3807,19 @@
     "jscodeshift" "^0.11.0"
     "nullthrows" "^1.1.1"
 
-"react-native-webrtc@^1.92.2":
+"react-native-uuid@^2.0.1":
+  "integrity" "sha512-cptnoIbL53GTCrWlb/+jrDC6tvb7ypIyzbXNJcpR3Vab0mkeaaVd5qnB3f0whXYzS+SMoSQLcUUB0gEWqkPC0g=="
+  "resolved" "https://registry.npmjs.org/react-native-uuid/-/react-native-uuid-2.0.1.tgz"
+  "version" "2.0.1"
+
+"react-native-verto-ts@^0.2.47":
+  "integrity" "sha512-TgYRnm8i2GjRVUWCToiLSYlPZ6gD2+3gO0RPlQToTsFYe8iEo4iopItLUBK6pjEXnONUGlXtgiUYIPUrYnmbmA=="
+  "resolved" "https://registry.npmjs.org/react-native-verto-ts/-/react-native-verto-ts-0.2.47.tgz"
+  "version" "0.2.47"
+  dependencies:
+    "@react-native-async-storage/async-storage" "^1.17.6"
+
+"react-native-webrtc@^1.92.2", "react-native-webrtc@>=1.87.3":
   "integrity" "sha512-VmkKCwMYL/ZsLqNFX+Rqxwf3ZfHuJRfF2AZ+dQ1ZZ8O1Pg4LeZNisZo6djl9bze0fNhj7eMJTwnzk/kK2mW0hg=="
   "resolved" "https://registry.npmjs.org/react-native-webrtc/-/react-native-webrtc-1.94.0.tgz"
   "version" "1.94.0"
@@ -3812,7 +3829,7 @@
     "tar" "6.1.11"
     "uuid" "3.4.0"
 
-"react-native@*", "react-native@^0.0.0-0 || ^0.60.6 || ^0.61.5 || ^0.62.2 || ^0.63.2 || ^0.64.0 || ^0.65.0 || ^0.66.0 || 1000.0.0", "react-native@>=0.47.0", "react-native@>=0.60.0", "react-native@0.66.3":
+"react-native@*", "react-native@^0.0.0-0 || 0.60 - 0.69 || 1000.0.0", "react-native@>=0.40.0", "react-native@>=0.47.0", "react-native@>=0.60.0", "react-native@0.66.3":
   "integrity" "sha512-B/dQpuvta9YvF5MihDWefoGlTvxzUHK5X5RjdrXHAu/ihTehJXxEA+m6z/tufp1ZUMDjU+tMZK6gnehzCuYfzw=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.66.3.tgz"
   "version" "0.66.3"
@@ -3854,7 +3871,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.4.3.tgz"
   "version" "0.4.3"
 
-"react@^16.8.0 || ^17.0.0", "react@17.0.2":
+"react@*", "react@^16.8.0 || ^17.0.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
