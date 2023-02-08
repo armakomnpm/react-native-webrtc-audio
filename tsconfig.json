@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-audio": ["./src/index"]
+      "react-native-webrtc-audio": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

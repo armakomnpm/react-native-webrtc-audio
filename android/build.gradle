@@ -19,10 +19,10 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('Audio_compileSdkVersion', 30)
+    compileSdkVersion safeExtGet('Audio_compileSdkVersion', 31)
     defaultConfig {
         minSdkVersion safeExtGet('Audio_minSdkVersion', 24)
-        targetSdkVersion safeExtGet('Audio_targetSdkVersion', 24)
+        targetSdkVersion safeExtGet('Audio_targetSdkVersion', 31)
 
     }
 

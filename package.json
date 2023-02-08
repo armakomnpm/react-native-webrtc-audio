@@ -70,7 +70,7 @@
   "peerDependencies": {
     "react": "*",
     "react-native": ">=0.61.4",
-    "react-native-webrtc": ">=1.87.3"
+    "react-native-webrtc": ">=106.0.4"
   },
   "jest": {
     "preset": "react-native",
@@ -147,6 +147,6 @@
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.17.6",
-    "react-native-verto-ts": "^0.2.45"
+    "react-native-verto-ts": "^0.2.50"
   }
 }

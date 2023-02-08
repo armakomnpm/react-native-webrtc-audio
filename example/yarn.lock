@@ -1304,6 +1304,11 @@
     "mime-types" "~2.1.24"
     "negotiator" "0.6.2"
 
+"adm-zip@0.5.9":
+  "integrity" "sha512-s+3fXLkeeLjZ2kLjCBwQufpI5fuN+kIGBxu6530nVQZGVol0d7Y/M88/xw9HGGUcJjKf8LutN3VPRUBq6N7Ajg=="
+  "resolved" "https://registry.npmjs.org/adm-zip/-/adm-zip-0.5.9.tgz"
+  "version" "0.5.9"
+
 "anser@^1.4.9":
   "integrity" "sha512-hCv9AqTQ8ycjpSd3upOJd7vFwW1JaoYQ7tpham03GJ1ca8/65rqn0RpaWpItOAd6ylW9wAw6luXYPJIyPFVOww=="
   "resolved" "https://registry.npmjs.org/anser/-/anser-1.4.10.tgz"
@@ -1945,6 +1950,13 @@
   "integrity" "sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.2.tgz"
   "version" "4.3.2"
+  dependencies:
+    "ms" "2.1.2"
+
+"debug@4.3.4":
+  "integrity" "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
+  "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+  "version" "4.3.4"
   dependencies:
     "ms" "2.1.2"
 
@@ -3802,20 +3814,21 @@
     "jscodeshift" "^0.11.0"
     "nullthrows" "^1.1.1"
 
-"react-native-webrtc@^1.92.2":
-  "integrity" "sha512-VmkKCwMYL/ZsLqNFX+Rqxwf3ZfHuJRfF2AZ+dQ1ZZ8O1Pg4LeZNisZo6djl9bze0fNhj7eMJTwnzk/kK2mW0hg=="
-  "resolved" "https://registry.npmjs.org/react-native-webrtc/-/react-native-webrtc-1.94.0.tgz"
-  "version" "1.94.0"
+"react-native-webrtc@^106.0.4":
+  "integrity" "sha512-EINzYpTZh6zXb2lcGH13Ieli1ur3M1FaT8R8WMqfUZEW8/y0WV6yBeQQVz55OA4LtWnBUX0RZyaYQ4aZN4e1Sw=="
+  "resolved" "https://registry.npmjs.org/react-native-webrtc/-/react-native-webrtc-106.0.5.tgz"
+  "version" "106.0.5"
   dependencies:
+    "adm-zip" "0.5.9"
     "base64-js" "1.5.1"
+    "debug" "4.3.4"
     "event-target-shim" "6.0.2"
     "tar" "6.1.11"
-    "uuid" "3.4.0"
 
-"react-native@*", "react-native@^0.0.0-0 || ^0.60.6 || ^0.61.5 || ^0.62.2 || ^0.63.2 || ^0.64.0 || ^0.65.0 || ^0.66.0 || 1000.0.0", "react-native@>=0.47.0", "react-native@>=0.60.0", "react-native@0.66.3":
-  "integrity" "sha512-B/dQpuvta9YvF5MihDWefoGlTvxzUHK5X5RjdrXHAu/ihTehJXxEA+m6z/tufp1ZUMDjU+tMZK6gnehzCuYfzw=="
-  "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.66.3.tgz"
-  "version" "0.66.3"
+"react-native@*", "react-native@^0.0.0-0 || ^0.60.6 || ^0.61.5 || ^0.62.2 || ^0.63.2 || ^0.64.0 || ^0.65.0 || ^0.66.0 || 1000.0.0", "react-native@>=0.47.0", "react-native@>=0.60.0", "react-native@0.66.5":
+  "integrity" "sha512-dC5xmE1anT+m8eGU0N/gv2XUWZygii6TTqbwZPsN+uMhVvjxt4FsTqpZOFFvA5sxLPR/NDEz8uybTvItNBMClw=="
+  "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.66.5.tgz"
+  "version" "0.66.5"
   dependencies:
     "@jest/create-cache-key-function" "^27.0.1"
     "@react-native-community/cli" "^6.0.0"
@@ -4575,7 +4588,7 @@
   "resolved" "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   "version" "1.0.1"
 
-"uuid@^3.3.2", "uuid@3.4.0":
+"uuid@^3.3.2":
   "integrity" "sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A=="
   "resolved" "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
   "version" "3.4.0"
